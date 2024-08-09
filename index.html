@@ -6,13 +6,14 @@
     <title>Document</title>
 </head>
 <body>
+    <form>
     <div>
     <label for="Firstname">First Name</label>
-    <input type="text" id="Firstname"> 
+    <input type="text" id="Firstname" required> 
 </div> <br>
 <div>
     <label for="Username">User Name</label>
-    <input type="text" id="Firstname">
+    <input type="text" id="Username" required>
 </div> <br>
 <div>
     <label for="Birthdate">Birthdate</label>
@@ -20,7 +21,7 @@
 </div> <br>
 <div>
     <label for="Email">Email</label>
-    <input type="email" id="Email">
+    <input type="email" id="Email" required>
 </div> <br>
 <div>
     <label for="Upload file">Upload file</label>
@@ -28,20 +29,24 @@
 </div> <br>
 <div>
     <label for="Country">Select Country</label>
-    <input type="search" id="Select Country">
+    <select id="countries" name="countries">
+        <option value="NGN">Nigeria</option>
+        <option value="JP">Japan</option>
+        <option value="USA">America</option>
+        </select>
 </div> <br>
 <div>
     <label for="Enter Password">Enter password</label>
-    <input type="password" id="Password">
+    <input type="password" id="Password" required>
 </div> <br>
 <div>
-    <label for="Submit">Submit</label>
     <input type="submit" id="Submit">
 </div> <br>
 <div>
     <label for="Agree to terms and conditions">Agree to terms and conditions</label>
-    <input type="checkbox" id="checkbox">
+    <input type="checkbox" id="Agree to terms and conditions">
 </div>
+</form>
     
 </body>
 </html>
