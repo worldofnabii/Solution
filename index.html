@@ -3,17 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>sign up form</title>
+    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="sign-up-form">
+        <h2>Sign Up</h2>
     <form>
     <div>
     <label for="firstname">First Name</label>
-    <input type="text" id="firstname" name="firstname" placeholder="firstname" required> 
+    <input type="text" id="firstname" class="text" name="firstname" placeholder="firstname" required> 
 </div> <br>
 <div>
     <label for="username">User Name</label>
-    <input type="text" id="username" name="username" placeholder="username" required>
+    <input type="text" id="username" class="text" name="username" placeholder="username" required>
 </div> <br>
 <div>
     <label for="birthdate">Birthdate</label>
@@ -37,19 +41,22 @@
 </div> <br>
 <div>
     <label for="password">Enter password</label>
-    <input type="password" id="password" name="password" placeholder="password" required>
+    <input type="password" id="password" class="text" name="password" placeholder="password" required>
 </div> <br>
 <div>
     <button type="submit"> Submit</button>
 </div> <br>
+
 <div>
     <label for="agreetotermsandconditions">
         <input type="checkbox" id="agreetotermsandconditions" name="agreetotermsandconditions">
         Agree to terms and conditions
     </label>
+    <p>Already have an account? <a href="#">Login here</a> </p>
    
 </div>
 </form>
+</div>
 
 </body>
 </html>

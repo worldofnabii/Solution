@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./@AteliêLePetit\ _\ Background\ wallpaper\ tumblr\,\ Abstract\ wallpaper\ design\,\ Abstract\ wall…\ _\ Background\ wallpaper\ tumblr\,\ Abstract\ wallpaper\ design\,\ Abstract\ wallpaper.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: "Jost", sans-serif;
+}
+
+.sign-up-form{
+    width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4%;
+}
+.sign-up-form h2{
+    font-size: 30px;
+    color: chocolate;
+    text-align: center;
+    margin-top: 8px;
+}
+
+
